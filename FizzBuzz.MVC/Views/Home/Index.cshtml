@@ -1,0 +1,21 @@
+﻿@model FizzBuzz.MVC.Models.FizzBuzzViewModel
+@{
+    ViewBag.Title = "FizzBuzz";
+}
+
+<div class="jumbotron">
+    <h1>FizzBuzz</h1>
+</div>
+
+<form action="/Home/Index" method="POST">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-4">
+            @Html.TextBoxFor(m => m.UserPosition)
+            @Html.ValidationMessageFor(m=>m.UserPosition)
+        </div>
+    </div>
+    <div class="row">
+        <input type="submit" class="btn btn-default" value="Get FizzBuzz" />
+    </div>
+    
+</form>

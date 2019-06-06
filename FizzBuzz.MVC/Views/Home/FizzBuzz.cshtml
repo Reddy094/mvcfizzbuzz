@@ -1,0 +1,34 @@
+﻿@model FizzBuzz.MVC.Models.FizzBuzzViewModel
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "FizzBuzz";
+}
+
+<div class="jumbotron">
+    <h1>FizzBuzz</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-4 col-md-offset-4">
+
+        @foreach (var number in Model.FizzBuzzNumbers)
+        {
+            if (number == "FizzBuzz")
+            {
+                <span class="fizz">Fizz</span><span class="buzz">Buzz</span>
+            }
+            else
+            {
+                <span class="@number.ToLower()"> @number</span>
+            }
+            <br />
+        }
+
+    </div>
+
+</div>
+<br />
+Page @(Model.FizzBuzzNumbers.PageCount < Model.FizzBuzzNumbers.PageNumber ? 0 : Model.FizzBuzzNumbers.PageNumber) of @Model.FizzBuzzNumbers.PageCount
+
+@Html.PagedListPager(Model.FizzBuzzNumbers, page => Url.Action("FizzBuzz",
+    new { value = @Model.UserPosition, page }))
