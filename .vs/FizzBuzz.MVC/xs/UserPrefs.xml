@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{337014FB-617B-42D5-B14E-345D3151BB2F}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FizzBuzz.MVC/Models/MyFizzBuzz.cs">
+    <Files>
+      <File FileName="FizzBuzz.MVC/Models/MyFizzBuzz.cs" Line="16" Column="25" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FizzBuzz.MVC" expanded="True">
+            <Node name="FizzBuzz.MVC" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="MyFizzBuzz.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="FizzBuzz.MVC" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.FizzBuzz.MVC PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
